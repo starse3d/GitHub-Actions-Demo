@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Successful step
         run: |
-          echo "I will fail"
+          echo "I will succeed!"
           exit 0
       - name: Say goodbye
         run: echo "Goodbye!"
