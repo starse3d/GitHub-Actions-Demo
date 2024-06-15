@@ -1,0 +1,38 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.14.0
+3 silly config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\tdavi\.vscode\GitHub-Actions-Demo-1\04-using-actions\.npmrc
+5 silly config:load:file:C:\Users\tdavi\.npmrc
+6 silly config:load:file:C:\Users\tdavi\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm exec create-react-app --template typescript react-app
+8 verbose argv "exec" "--" "create-react-app" "--template" "typescript" "react-app"
+9 verbose logfile logs-max:10 dir:C:\Users\tdavi\.vscode\GitHub-Actions-Demo-1\04-using-actions\UserstdaviAppDataLocalnpm-cache\_logs\2024-06-15T23_02_05_886Z-
+10 verbose logfile C:\Users\tdavi\.vscode\GitHub-Actions-Demo-1\04-using-actions\UserstdaviAppDataLocalnpm-cache\_logs\2024-06-15T23_02_05_886Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 216ms
+13 http fetch GET 200 https://registry.npmjs.org/create-react-app 417ms (cache miss)
+14 notice
+14 notice New [33mminor[39m version of npm available! [33m10.7.0[39m -> [34m10.8.1[39m
+14 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v10.8.1[39m
+14 notice To update run: [4mnpm install -g npm@10.8.1[24m
+14 notice  { force: true, [Symbol(proc-log.meta)]: true }
+15 verbose stack Error: ENOENT: no such file or directory, lstat 'C:\Users\tdavi\AppData\Roaming\npm'
+15 verbose stack     at async lstat (node:internal/fs/promises:1018:18)
+15 verbose stack     at async #loadActual (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\load-actual.js:112:20)
+15 verbose stack     at async exec (C:\Program Files\nodejs\node_modules\npm\node_modules\libnpmexec\lib\index.js:188:26)
+15 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:74:5)
+16 verbose cwd C:\Users\tdavi\.vscode\GitHub-Actions-Demo-1\04-using-actions
+17 verbose Windows_NT 10.0.19045
+18 verbose node v20.14.0
+19 verbose npm  v10.7.0
+20 error code ENOENT
+21 error syscall lstat
+22 error path C:\Users\tdavi\AppData\Roaming\npm
+23 error errno -4058
+24 error enoent ENOENT: no such file or directory, lstat 'C:\Users\tdavi\AppData\Roaming\npm'
+25 error enoent This is related to npm not being able to find a file.
+25 error enoent
+26 verbose exit -4058
+27 verbose code -4058
+28 error A complete log of this run can be found in: C:\Users\tdavi\.vscode\GitHub-Actions-Demo-1\04-using-actions\UserstdaviAppDataLocalnpm-cache\_logs\2024-06-15T23_02_05_886Z-debug-0.log
