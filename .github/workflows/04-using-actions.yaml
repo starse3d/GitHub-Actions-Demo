@@ -15,6 +15,6 @@ jobs:
       - name: Printing Folders
         run: |
           echo "Printing folder structure"
-          ls - R
+          tree
           
 
